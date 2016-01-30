@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
 	[FMODUnity.EventRef]
 	public string music = "event:/Environment/Level1(Electric wire)/Level1_Music";
 	FMOD.Studio.EventInstance musicEV;
-	FMOD.Studio.ParameterInstance win, lose, happiness;
+	public FMOD.Studio.ParameterInstance win, lose, happiness;
 
 	void Start() {
 		musicEV = FMODUnity.RuntimeManager.CreateInstance(music);
