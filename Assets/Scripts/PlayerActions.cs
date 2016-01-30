@@ -6,12 +6,13 @@ public class PlayerActions : MonoBehaviour
 {
 
     public float moveForce = 5f;
-    private Rigidbody2D body;
+    private Rigidbody body;
     public AbstractDate date;
     public int level = 0;
     bool headbang = false;
     public float level_width = 3f;
 
+  
     Animator[] bodyParts;
     Animator firstAnimator;
 
@@ -23,24 +24,24 @@ public class PlayerActions : MonoBehaviour
 
     void Start()
     {
-        body = GetComponent<Rigidbody2D>();
+        body = GetComponent<Rigidbody>();
     }
 
     void Update()
     {
 
-        if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
+        if (!Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
             SetIdle();
         }
 
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             SetWalk();
             body.AddForce(Vector2.left * moveForce);
             date.playerDid(PlayerAction.BACKOFF);
         }
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             SetWalk();
             body.AddForce(Vector2.right * moveForce);
@@ -95,4 +96,12 @@ public class PlayerActions : MonoBehaviour
         }
     }
 
+    public void Lose() {
+        GetComponent<Lose>().TriggerLose();
+    }
+
+    public void Win()
+    {
+
+    }
 }
