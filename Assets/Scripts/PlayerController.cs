@@ -6,12 +6,21 @@ public class PlayerController : MonoBehaviour {
 	public GameObject[] levels;
 	public int level = -1;
 	GameObject active_level;
+	public float cooldown_timer = 1000;
+	float cooldown = 0;
+	bool transition = false;
 
 	[FMODUnity.EventRef]
 	public string music = "event:/Environment/Level1(Electric wire)/Level1_Music";
+	FMOD.Studio.EventInstance musicEV;
+	FMOD.Studio.ParameterInstance win, lose, happiness;
 
 	void Start() {
-		FMODUnity.RuntimeManager.PlayOneShot(music);
+		musicEV = FMODUnity.RuntimeManager.CreateInstance(music);
+		musicEV.getParameter("Happiness", out happiness);
+		musicEV.getParameter("win", out win);
+		musicEV.getParameter("lose", out lose);
+		musicEV.start();
 		progress();
 	}
 
@@ -19,11 +28,21 @@ public class PlayerController : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Space)) {
 			Application.LoadLevel(Application.loadedLevel);
 		}
-		transform.position = Vector3.Lerp(
-			transform.position,
-			active_level.transform.position,
-			Time.deltaTime
-		);
+		if(active_level) {
+			transform.position = Vector3.Lerp(
+				transform.position,
+				active_level.transform.position,
+				Time.deltaTime
+			);
+		}
+		if(transition) {
+			if(cooldown > 0) {
+				cooldown -= Time.deltaTime;
+			} else {
+				transition = false;
+				win.setValue(0);
+			}
+		}
 	}
 
 	public void progress() {
@@ -32,6 +51,11 @@ public class PlayerController : MonoBehaviour {
 			active_level.transform.Find("TargetBird").gameObject.SetActive(false);
 		}
 		level++;
+		if(level != 0) {
+			win.setValue(1);
+			transition = true;
+			cooldown = cooldown_timer;
+		}
 		active_level = levels[level];
 		active_level.transform.Find("Player").gameObject.SetActive(true);
 	}
