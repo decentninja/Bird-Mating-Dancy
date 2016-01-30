@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour {
 		musicEV.getParameter("win", out win);
 		musicEV.getParameter("lose", out lose);
 		musicEV.start();
-		progress();
+		Progress();
 	}
 
 	void Update() {
@@ -46,7 +46,7 @@ public class PlayerController : MonoBehaviour {
 		}
 	}
 
-	public void progress() {
+	public void Progress() {
 		if(active_level) {
 			active_level.transform.Find("Player").gameObject.SetActive(false);
 			active_level.transform.Find("TargetBird").gameObject.SetActive(false);
