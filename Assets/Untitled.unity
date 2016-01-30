@@ -117,6 +117,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpDistance: 1
   date: {fileID: 1065713866}
+  level: 1
 --- !u!23 &111561701
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -206,6 +207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpDistance: 1
   date: {fileID: 1074823772}
+  level: 0
 --- !u!23 &749418206
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -418,16 +420,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1065713864}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f866d6ca112124515bd2e4d8cce7f203, type: 3}
+  m_Script: {fileID: 11500000, guid: 8dc7893ee6d2a40ebab7ee57f9f49a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
+  state: 2
   playercontroller: {fileID: 2116575087}
   playeractions: {fileID: 111561700}
   cosyProximity: 1
   jumpAwayDistance: 1
-  starting_happyness: 10
-  decipate: 1
+  cooldown_setting: 10
+  required_headbangcount: 2
+  headbangcount: 0
 --- !u!23 &1065713867
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -508,7 +511,8 @@ MonoBehaviour:
   playeractions: {fileID: 749418205}
   cosyProximity: 1
   jumpAwayDistance: 1
-  starting_happyness: 10
+  happyness: 1
+  target_happyness: 5
   decipate: 1
 --- !u!23 &1074823773
 MeshRenderer:

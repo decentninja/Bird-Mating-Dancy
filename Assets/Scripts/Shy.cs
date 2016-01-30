@@ -4,20 +4,15 @@ using System.Collections;
 
 public class Shy : AbstractDate {
 	
-	float happyness;
-	public float starting_happyness = 10f;
+	public float happyness = 0;
+	public float target_happyness = 8f;
 	public float decipate = 1f;
-
-	void Start() {
-		state = DateState.HAPPY;
-		happyness = starting_happyness;
-	}
 
 	public override void handlePlayerDid(PlayerAction pa) {
 		switch(pa) {
 			case PlayerAction.BACKOFF:
 			case PlayerAction.MOVE_FORWARD:
-				happyness -= 1;
+				happyness -= 2;
 				happyness = Mathf.Max(0, happyness);
 				break;
 		}
@@ -25,8 +20,8 @@ public class Shy : AbstractDate {
 
 	void Update() {
 		happyness += Time.deltaTime * decipate;
-		happyness = Mathf.Min(starting_happyness, happyness);
-		if(happyness < 8) {
+		happyness = Mathf.Min(target_happyness, happyness);
+		if(happyness > target_happyness - 2) {
 			state = DateState.HAPPY;
 		} else {
 			state = DateState.UNHAPPY;

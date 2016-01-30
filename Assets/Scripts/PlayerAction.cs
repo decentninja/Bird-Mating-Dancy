@@ -3,5 +3,6 @@ using System.Collections;
 
 public enum PlayerAction {
 	MOVE_FORWARD,
-	BACKOFF
+	BACKOFF,
+	HEADBANG
 }

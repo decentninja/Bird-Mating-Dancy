@@ -20,8 +20,10 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	public void progress() {
-		if(active_level)
+		if(active_level) {
 			active_level.transform.Find("Player").gameObject.SetActive(false);
+			active_level.transform.Find("Date").gameObject.SetActive(false);
+		}
 		level++;
 		active_level = levels[level];
 		active_level.transform.Find("Player").gameObject.SetActive(true);
