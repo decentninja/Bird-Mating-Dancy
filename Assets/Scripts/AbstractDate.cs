@@ -36,15 +36,15 @@ public abstract class AbstractDate : MonoBehaviour {
 		if(Vector3.Distance(transform.position, playeractions.transform.position) < cosyProximity) {
 			switch(state) {
 				case DateState.HAPPY:
-					playercontroller.progress();
+					playercontroller.Progress();
 					break;
 				case DateState.NORMAL:
 					Debug.Log("NOOOP");
 					transform.Translate(jumpAwayDistance, 0, 0);
 					break;
 				case DateState.UNHAPPY:
-					Debug.Log("Game over man, game over!");
-					transform.Translate(0, 1000, 0);
+                    playeractions.Lose();
+					//transform.Translate(0, 1000, 0);
 					break;
 			}
 		}

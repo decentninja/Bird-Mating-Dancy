@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 11402998}
-  - {fileID: 11459926}
-  - {fileID: 11488682}
+  - {fileID: 11429472}
+  - {fileID: 11488072}
+  - {fileID: 11452716}
   EditorEvents:
   - {fileID: 11403534}
   - {fileID: 11467788}
@@ -34,8 +34,8 @@ MonoBehaviour:
   - {fileID: 11407778}
   - {fileID: 11422560}
   - {fileID: 11494340}
-  MasterBankRef: {fileID: 11402998}
-  stringsBankWriteTime: 635897489300000000
+  MasterBankRef: {fileID: 11429472}
+  stringsBankWriteTime: 635897515831322156
 --- !u!114 &11402228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
   Path: event:/Environment/Level2(Branch)/Level2_Music
   guid: c6fdc8cbc4a1a143917633aa957dad97
   Banks:
-  - {fileID: 11459926}
+  - {fileID: 11488072}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -71,7 +71,7 @@ MonoBehaviour:
   Path: event:/Player/Movement/Player_DanceShort
   guid: 3847b74f7308894abeb26b9aa52e2b40
   Banks:
-  - {fileID: 11402998}
+  - {fileID: 11429472}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
   Path: event:/Player/Movement/Player_DanceLong
   guid: 1ce91a69899f3f4eb57d761c100c8430
   Banks:
-  - {fileID: 11402998}
+  - {fileID: 11429472}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -131,7 +131,7 @@ MonoBehaviour:
   Path: event:/Environment/Level2(Branch)/Level2_Branchsound
   guid: c3c181173e14ee418a42513d17b83b5e
   Banks:
-  - {fileID: 11459926}
+  - {fileID: 11488072}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -152,7 +152,7 @@ MonoBehaviour:
   Path: event:/Player/Movement/Player_Walk_Level1
   guid: d4a027524149f0439a22a7b343b9ad96
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -173,13 +173,31 @@ MonoBehaviour:
   Path: event:/Environment/Level1(Electric wire)/Level1_Ambience
   guid: de1de9423614e24ca3f2e44cc27a4f12
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11429472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets/LovebirdFMOD\Build\Desktop\Master Bank.bank
+  lastModified: 635897515831176531
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 108352
+  Exists: 1
 --- !u!114 &11429536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,7 +212,7 @@ MonoBehaviour:
   Path: event:/Environment/Level2(Branch)/Level2_Ambience
   guid: a11058fe2bffe348aca9e63e2155bbb6
   Banks:
-  - {fileID: 11459926}
+  - {fileID: 11488072}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -215,7 +233,7 @@ MonoBehaviour:
   Path: event:/Player/Movement/Player_Fly
   guid: bfa3906edc68994ebaf9677cc04013b5
   Banks:
-  - {fileID: 11402998}
+  - {fileID: 11429472}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -250,7 +268,7 @@ MonoBehaviour:
   Path: event:/Environment/Level1(Electric wire)/Level1_Wirecreak
   guid: 5847d2625d70c244a157a091fdcd215d
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -271,12 +289,12 @@ MonoBehaviour:
   Path: event:/Birds/Derpbird/Derpbird_Tailwiggle
   guid: 6c681e2a243b91418e7b34484d54d7b3
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 11435124}
+  - {fileID: 11489630}
   MinDistance: 1
   MaxDistance: 20
 --- !u!114 &11446960
@@ -293,7 +311,7 @@ MonoBehaviour:
   Path: event:/Birds/Derpbird/Derpbird_Flyaway
   guid: 4fe66b56d3cbdd47aae56a5a0205d58b
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -314,13 +332,31 @@ MonoBehaviour:
   Path: event:/Environment/Level1(Electric wire)/Level1_Music
   guid: 21d6276f173d374d915939cba565dc44
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11452716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets/LovebirdFMOD\Build\Desktop\Level 1.bank
+  lastModified: 635897515830524567
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 4571680
+  Exists: 1
 --- !u!114 &11456028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -335,7 +371,7 @@ MonoBehaviour:
   Path: event:/Player/Movement/Player_Walk_Level2
   guid: 573f2e2683804e4595fb2379f706a092
   Banks:
-  - {fileID: 11459926}
+  - {fileID: 11488072}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -374,7 +410,7 @@ MonoBehaviour:
   Path: event:/Environment/Level1(Electric wire)/Level1_Buzz
   guid: cb3d1c233371f34c8de5f1b0dcbdd9c8
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -395,7 +431,7 @@ MonoBehaviour:
   Path: event:/Player/Movement/Player_DanceMedium
   guid: 21bb802bbc969b4091794df705d520b6
   Banks:
-  - {fileID: 11402998}
+  - {fileID: 11429472}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -416,7 +452,7 @@ MonoBehaviour:
   Path: event:/Narration/Narration_Level2
   guid: 846d93a56f24fd4a8c929fd819c6493f
   Banks:
-  - {fileID: 11459926}
+  - {fileID: 11488072}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -437,13 +473,31 @@ MonoBehaviour:
   Path: event:/Narration/Narration_Level1
   guid: 461d2c8826db7b40a1f012e63dddeeeb
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+--- !u!114 &11488072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Assets/LovebirdFMOD\Build\Desktop\Level 2.bank
+  lastModified: 635897515830766597
+  LoadResult: 0
+  FileSizes:
+  - Name: Desktop
+    Value: 2170528
+  Exists: 1
 --- !u!114 &11488682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -462,6 +516,20 @@ MonoBehaviour:
   - Name: Desktop
     Value: 4571680
   Exists: 1
+--- !u!114 &11489630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Happy
+  Min: 0
+  Max: 1
 --- !u!114 &11494340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -476,7 +544,7 @@ MonoBehaviour:
   Path: event:/Narration/Narration_Level1_Tip
   guid: f937b622c854c041b4f4ca7d54d20c82
   Banks:
-  - {fileID: 11488682}
+  - {fileID: 11452716}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1

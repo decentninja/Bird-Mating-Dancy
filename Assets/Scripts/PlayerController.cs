@@ -12,7 +12,7 @@ public class PlayerController : MonoBehaviour {
 
 	void Start() {
 		FMODUnity.RuntimeManager.PlayOneShot(music);
-		progress();
+		Progress();
 	}
 
 	void Update() {
@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour {
 		);
 	}
 
-	public void progress() {
+	public void Progress() {
 		if(active_level) {
 			active_level.transform.Find("Player").gameObject.SetActive(false);
 			active_level.transform.Find("TargetBird").gameObject.SetActive(false);
