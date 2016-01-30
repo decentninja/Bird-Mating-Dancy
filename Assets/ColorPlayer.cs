@@ -12,7 +12,7 @@ public class ColorPlayer : MonoBehaviour
 
         foreach (var part in bodyParts)
         {
-            part.color = Color.green;
+            part.color = Color.yellow;
         }
     }
 }

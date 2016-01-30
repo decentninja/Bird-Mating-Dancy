@@ -7,12 +7,13 @@ public class Shy : AbstractDate {
 	public float happyness = 0;
 	public float target_happyness = 8f;
 	public float decipate = 1f;
+	public float loosingOnMove = 0.5f; 
 
 	public override void handlePlayerDid(PlayerAction pa) {
 		switch(pa) {
 			case PlayerAction.BACKOFF:
 			case PlayerAction.MOVE_FORWARD:
-				happyness -= 2;
+				happyness -= loosingOnMove;
 				happyness = Mathf.Max(0, happyness);
 				break;
 		}
