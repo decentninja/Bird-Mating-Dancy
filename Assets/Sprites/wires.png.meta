@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 923eb3bdffa2b494795d1abcf96ef9a3
+timeCreated: 1454144471
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wires_pole1
+    21300002: wires_pole2
+    21300004: wires_mount1
+    21300006: wires_mount2
+    21300008: wires_propmaybe
+    21300010: wires_propmaybe2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: wires_pole1
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 46
+        width: 78
+        height: 1918
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.06668, y: -56.466675}
+        - {x: 20.06668, y: 290.53333}
+        - {x: 21.06668, y: 358.53333}
+        - {x: 21.06668, y: 502.53333}
+        - {x: 20.06668, y: 511.53333}
+        - {x: 16.06668, y: 512.5333}
+        - {x: -15.933319, y: 512.5333}
+        - {x: -20.93332, y: 509.53333}
+        - {x: -20.93332, y: 442.53333}
+        - {x: -19.93332, y: 424.53333}
+        - {x: -20.93332, y: 277.53333}
+        - {x: -20.93332, y: -511.46667}
+        - {x: 18.06668, y: -511.46667}
+        - {x: 20.06668, y: -510.46667}
+        - {x: 21.06668, y: -429.46667}
+    - name: wires_pole2
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 40
+        width: 73
+        height: 1926
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.333313, y: 514.3333}
+        - {x: -19.333313, y: -511.6667}
+        - {x: -18.333313, y: -513.6667}
+        - {x: 20.666687, y: -513.6667}
+        - {x: 20.666687, y: 508.3333}
+        - {x: 1.666687, y: 514.3333}
+    - name: wires_mount1
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 1646
+        width: 60
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.833313, y: 40.8667}
+        - {x: -10.833313, y: 38.8667}
+        - {x: -15.833313, y: 29.8667}
+        - {x: -15.833313, y: -22.1333}
+        - {x: -6.833313, y: -39.1333}
+        - {x: 17.166687, y: -39.1333}
+        - {x: 17.166687, y: 32.8667}
+        - {x: 12.166687, y: 40.8667}
+    - name: wires_mount2
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1634
+        width: 60
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.233276, y: 42.466736}
+        - {x: -16.233276, y: 41.466736}
+        - {x: -16.233276, y: -41.533264}
+        - {x: 16.766724, y: -41.533264}
+        - {x: 16.766724, y: 42.466736}
+    - name: wires_propmaybe
+      rect:
+        serializedVersion: 2
+        x: 3151
+        y: 114
+        width: 150
+        height: 1752
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.033447, y: -106.20001}
+        - {x: 28.033447, y: 185.79999}
+        - {x: 31.033447, y: 298.8}
+        - {x: 20.033447, y: 461.8}
+        - {x: 10.033447, y: 468.8}
+        - {x: -36.966553, y: 468.8}
+        - {x: -39.966553, y: 452.8}
+        - {x: -39.966553, y: 357.8}
+        - {x: -35.966553, y: 342.8}
+        - {x: -23.966553, y: -17.200012}
+        - {x: -23.966553, y: -154.20001}
+        - {x: -19.966553, y: -270.2}
+        - {x: -19.966553, y: -467.2}
+        - {x: 28.033447, y: -467.2}
+        - {x: 29.033447, y: -466.2}
+        - {x: 41.033447, y: -429.2}
+        - {x: 41.033447, y: -238.20001}
+    - name: wires_propmaybe2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 35
+        width: 136
+        height: 1848
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.866684, y: -200.83334}
+        - {x: 33.866684, y: -94.83334}
+        - {x: 32.866684, y: 81.16666}
+        - {x: 37.866684, y: 202.16666}
+        - {x: 37.866684, y: 486.16666}
+        - {x: 27.866684, y: 494.16666}
+        - {x: 3.866684, y: 494.16666}
+        - {x: -9.133316, y: 492.16666}
+        - {x: -18.133316, y: 486.16666}
+        - {x: -22.133316, y: 249.16666}
+        - {x: -23.133316, y: -51.833344}
+        - {x: -31.133316, y: -200.83334}
+        - {x: -35.133316, y: -344.83334}
+        - {x: -36.133316, y: -374.83334}
+        - {x: -36.133316, y: -478.83334}
+        - {x: -29.133316, y: -492.83334}
+        - {x: -0.13331604, y: -492.83334}
+        - {x: 14.866684, y: -483.83334}
+        - {x: 22.866684, y: -470.83334}
+        - {x: 29.866684, y: -287.83334}
+      - - {x: -28.133316, y: -94.83334}
+        - {x: -27.133316, y: -99.83334}
+        - {x: -25.133316, y: -101.83334}
+        - {x: -22.133316, y: -100.83334}
+        - {x: -22.133316, y: -84.83334}
+        - {x: -24.133316, y: -82.83334}
+        - {x: -27.133316, y: -83.83334}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
