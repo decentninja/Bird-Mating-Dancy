@@ -10,8 +10,6 @@ public class BirdMood : MonoBehaviour
     void Awake()
     {
         bodyParts = transform.GetComponentsInChildren<Animator>();
-
-      
     }
 
     // Update is called once per frame
