@@ -11,6 +11,7 @@ public class PlayerActions : MonoBehaviour
     public int level = 0;
     bool headbang = false;
     public float level_width = 3f;
+
   
     Animator[] bodyParts;
     Animator firstAnimator;

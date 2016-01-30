@@ -26,7 +26,7 @@
             <destination>{145570a8-cb71-4a64-93e6-1f86ec7f52ef}</destination>
         </relationship>
         <relationship name="banks">
-            <destination>{81d090b1-53e5-4d12-8972-2e20eead66e3}</destination>
+            <destination>{8535a880-4566-41fe-be6a-8847753514a6}</destination>
         </relationship>
         <relationship name="folder">
             <destination>{249c1597-0982-4a22-813b-6b43e92f3a4b}</destination>
@@ -148,7 +148,14 @@
     </object>
     <object class="MixerBusPanner" id="{03ef5f7e-9307-45cf-a38d-ab9ff9507cab}"/>
     <object class="MixerBusFader" id="{4be74729-e904-442a-b61d-2b345fda2833}"/>
-    <object class="SpatialiserEffect" id="{7b68a964-f836-4f5b-8e69-7a58ae980606}"/>
+    <object class="SpatialiserEffect" id="{7b68a964-f836-4f5b-8e69-7a58ae980606}">
+        <property name="distanceRolloffType">
+            <value>4</value>
+        </property>
+        <property name="extentMode">
+            <value>2</value>
+        </property>
+    </object>
     <object class="MixerSend" id="{37c65368-3178-4af4-99ab-88f59af055f2}">
         <relationship name="return">
             <destination>{77bd2d60-ab17-40e7-b98c-2799db1d6e7b}</destination>

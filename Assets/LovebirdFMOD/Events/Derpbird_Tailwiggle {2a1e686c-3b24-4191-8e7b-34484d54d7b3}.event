@@ -102,7 +102,7 @@
     </object>
     <object class="GameParameter" id="{5209ca82-1b3c-44d3-b417-297c4efe7f47}">
         <property name="name">
-            <value>Happy</value>
+            <value>Happiness</value>
         </property>
         <relationship name="automationCurves">
             <destination>{2423ab9e-52f1-4878-98a9-c0cc3f5d966a}</destination>
@@ -861,6 +861,9 @@
     <object class="SpatialiserEffect" id="{a9ec503e-8e60-4d79-bd4c-bbb685293cb9}">
         <property name="distanceRolloffType">
             <value>4</value>
+        </property>
+        <property name="extentMode">
+            <value>2</value>
         </property>
     </object>
     <object class="MixerSend" id="{87878110-7016-4a9b-9c71-dad3106996ea}">
