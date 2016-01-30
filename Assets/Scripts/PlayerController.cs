@@ -7,7 +7,11 @@ public class PlayerController : MonoBehaviour {
 	public int level = -1;
 	GameObject active_level;
 
+	[FMODUnity.EventRef]
+	public string music = "event:/Environment/Level1(Electric wire)/Level1_Music";
+
 	void Start() {
+		FMODUnity.RuntimeManager.PlayOneShot(music);
 		progress();
 	}
 
