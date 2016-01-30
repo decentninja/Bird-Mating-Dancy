@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="Folder" id="{43a05a7c-6117-42f7-bd32-1851b0d931b7}">
+        <property name="name">
+            <value>Peacock</value>
+        </property>
+        <relationship name="folder">
+            <destination>{1bdef05f-8dcb-4666-be03-ede2bb783c2f}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -55,4 +55,6 @@ MonoBehaviour:
     Value: 32
   Plugins: []
   MasterBank: Master Bank
-  Banks: []
+  Banks:
+  - Level 2
+  - Level 1

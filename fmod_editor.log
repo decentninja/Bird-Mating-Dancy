@@ -1,0 +1,813 @@
+[LOG] System::create                           : Header version = 1.07.06. Current version = 1.07.06.
+[LOG] SystemI::init                            : FMOD Studio Version: 00010706 (71893)
+[LOG] SystemI::init                            : maxchannels = 256, flags = 00020000, extradriverdata = 0x0
+[LOG] SystemI::close                           : 
+[LOG] SystemI::close                           : Stop all sounds
+[LOG] SystemI::close                           : Remove miscllaneous DSP stuff.
+[LOG] SystemI::close                           : done.
+
+[LOG] OutputCoreAudio::enumerate               : Enumerating...
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Built-in Output".
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Boom2Device".
+[LOG] OutputCoreAudio::enumerate               : Done.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Initializing FMOD mixer thread.  priority 3
+[LOG] Thread::initThread                       : - Stacksize 49152.  Stack pointer 0x0 : usesemaphore = 1 : sleeptime = 0
+[LOG] Thread::callback                         : * FMOD mixer thread started
+[LOG] SystemI::init                            : Set up emulated output
+[LOG] SystemI::init                            : create the channel pool
+[LOG] SystemI::init                            : Set up streamer
+[LOG] Thread::initThread                       : Initializing FMOD stream thread.  priority 2
+[LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 10
+[LOG] Thread::callback                         : * FMOD stream thread started
+[LOG] Thread::initThread                       : Initializing FMOD Studio load thread.  priority 0
+[LOG] Thread::initThread                       : - Stacksize 65536.  Stack pointer 0x0 : usesemaphore = 0 : sleeptime = 1
+[LOG] Thread::callback                         : * FMOD Studio load thread started
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Thread::callback                         : * FMOD Studio load thread finished
+[LOG] Thread::close                            : FMOD Studio load thread thread destroyed
+[LOG] LiveUpdate::release                      : 
+[LOG] SystemI::close                           : 
+[LOG] SystemI::close                           : Stop all sounds
+[LOG] Thread::callback                         : * FMOD stream thread finished
+[LOG] Thread::close                            : FMOD stream thread thread destroyed
+[LOG] SystemI::close                           : Stream thread destroyed
+[LOG] SystemI::close                           : Shut down output.
+[LOG] Thread::callback                         : * FMOD mixer thread finished
+[LOG] Thread::close                            : FMOD mixer thread thread destroyed
+[LOG] SystemI::close                           : Free master channel group.
+[LOG] SystemI::close                           : Remove 'master' sound group.
+[LOG] SystemI::close                           : Free software output.
+[LOG] SystemI::close                           : Free emulated output.
+[LOG] SystemI::close                           : Free channel pool.
+[LOG] SystemI::close                           : Remove miscllaneous DSP stuff.
+[LOG] Global::decRef                           : Shut down streamer and FMOD_NONBLOCKING and FileSystem thread.
+[LOG] Global::decRef                           : Shut down file system.
+[LOG] SystemI::close                           : done.
+
+[LOG] System::create                           : Header version = 1.07.06. Current version = 1.07.06.
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithInputs: {3e42090d-8261-4b82-b7a2-fa20270c279f}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[WRN] ObjectLookup::get                        : Lookup failed for BusWithSends: {77bd2d60-ab17-40e7-b98c-2799db1d6e7b}
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] Thread::initThread                       : Initializing FMOD nonblocking thread (0).  priority 1
+[LOG] Thread::initThread                       : - Stacksize 81920.  Stack pointer 0x0 : usesemaphore = 1 : sleeptime = 0
+[LOG] Thread::callback                         : * FMOD nonblocking thread (0) started
+[LOG] SystemI::createSound                     : setdata soundi = 0x11174a708 : node = 0x11174a8b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x11174a708
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     :     setdata soundi = 0x11174af18 : node = 0x11174b0c0
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11174a9b8
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1363ee1f8 : node = 0x1363a6ae0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     :     setdata soundi = 0x111721688 : node = 0x11174bf60
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 2
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1363ee498 : node = 0x1363ee640
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 3
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 64000 samples, lengthbytes 11584
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 64000, lengthbytes 11584, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x11174a708
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x11174af18
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11174b1c8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 64000 samples, lengthbytes 11648
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 64000, lengthbytes 11648, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x11174af18
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1363ee1f8
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1363a6be8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 94310 samples, lengthbytes 16032
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 94310, lengthbytes 16032, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1363ee1f8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x111721688
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11174c068
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 49792 samples, lengthbytes 9312
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 49792, lengthbytes 9312, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x111721688
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1363ee498
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1363ee748
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 79997 samples, lengthbytes 14816
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 79997, lengthbytes 14816, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1363ee498
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SoundI::release                          : (null) (0x11174a708)
+[LOG] SoundI::release                          : release subsounds. (0x11174a708)
+[LOG] SoundI::release                          :     (null) (0x111744388)
+[LOG] SoundI::release                          : release codec. (0x11174a708)
+[LOG] SoundI::release                          : (null) (0x11174af18)
+[LOG] SoundI::release                          : release subsounds. (0x11174af18)
+[LOG] SoundI::release                          :     (null) (0x1363e4468)
+[LOG] SoundI::release                          : release codec. (0x11174af18)
+[LOG] SoundI::release                          : (null) (0x1363ee1f8)
+[LOG] SoundI::release                          : release subsounds. (0x1363ee1f8)
+[LOG] SoundI::release                          :     (null) (0x1363e45f8)
+[LOG] SoundI::release                          : release codec. (0x1363ee1f8)
+[LOG] SoundI::release                          : (null) (0x111721688)
+[LOG] SoundI::release                          : release subsounds. (0x111721688)
+[LOG] SoundI::release                          :     (null) (0x1363e4788)
+[LOG] SoundI::release                          : release codec. (0x111721688)
+[LOG] SoundI::release                          : (null) (0x1363ee498)
+[LOG] SoundI::release                          : release subsounds. (0x1363ee498)
+[LOG] SoundI::release                          :     (null) (0x1117555c8)
+[LOG] SoundI::release                          : release codec. (0x1363ee498)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x1363dd048 : node = 0x112111380
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1363dd048
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x112111488
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 5100216 samples, lengthbytes 1403360
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 5100216, lengthbytes 1403360, channels 2, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1363dd048
+[LOG] SoundI::release                          : (null) (0x1363dd048)
+[LOG] SoundI::release                          : release subsounds. (0x1363dd048)
+[LOG] SoundI::release                          :     (null) (0x1222255f8)
+[LOG] SoundI::release                          : release codec. (0x1363dd048)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x111772ad8 : node = 0x1117c5720
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x111772ad8
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1117596b8 : node = 0x1117a7ac0
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1117c5828
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0x111752f58 : node = 0x1117c3680
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 4416700 samples, lengthbytes 1015776
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 4416700, lengthbytes 1015776, channels 2, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x111772ad8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1117596b8
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1117a7bc8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 3698883 samples, lengthbytes 1023744
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 3698883, lengthbytes 1023744, channels 2, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1117596b8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x111752f58
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1117c3788
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 2260128 samples, lengthbytes 595648
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 2260128, lengthbytes 595648, channels 2, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x111752f58
+[LOG] SoundI::release                          : (null) (0x111772ad8)
+[LOG] SoundI::release                          : release subsounds. (0x111772ad8)
+[LOG] SoundI::release                          :     (null) (0x11174a6e8)
+[LOG] SoundI::release                          : release codec. (0x111772ad8)
+[LOG] SoundI::release                          : (null) (0x1117596b8)
+[LOG] SoundI::release                          : release subsounds. (0x1117596b8)
+[LOG] SoundI::release                          :     (null) (0x1121407e8)
+[LOG] SoundI::release                          : release codec. (0x1117596b8)
+[LOG] SoundI::release                          : (null) (0x111752f58)
+[LOG] SoundI::release                          : release subsounds. (0x111752f58)
+[LOG] SoundI::release                          :     (null) (0x1117c4bb8)
+[LOG] SoundI::release                          : release codec. (0x111752f58)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x112113048 : node = 0x11213afd0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x112113048
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1363e5678 : node = 0x1121410c0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11213b0d8
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1117b7ce8 : node = 0x12ef948e0
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 1
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     :     setdata soundi = 0x11175e938 : node = 0x111782e30
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 2
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 15744 samples, lengthbytes 3072
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 15744, lengthbytes 3072, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x112113048
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1363e5678
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1121411c8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 24576 samples, lengthbytes 4992
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 24576, lengthbytes 4992, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1363e5678
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1117b7ce8
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x12ef949e8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 19912 samples, lengthbytes 4160
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 19912, lengthbytes 4160, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1117b7ce8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x11175e938
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x111782f38
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 52942 samples, lengthbytes 11264
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 52942, lengthbytes 11264, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x11175e938
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SoundI::release                          : (null) (0x112113048)
+[LOG] SoundI::release                          : release subsounds. (0x112113048)
+[LOG] SoundI::release                          :     (null) (0x112131958)
+[LOG] SoundI::release                          : release codec. (0x112113048)
+[LOG] SoundI::release                          : (null) (0x11175e938)
+[LOG] SoundI::release                          : release subsounds. (0x11175e938)
+[LOG] SoundI::release                          :     (null) (0x1222365d8)
+[LOG] SoundI::release                          : release codec. (0x11175e938)
+[LOG] SoundI::release                          : (null) (0x1363e5678)
+[LOG] SoundI::release                          : release subsounds. (0x1363e5678)
+[LOG] SoundI::release                          :     (null) (0x1363f7ff8)
+[LOG] SoundI::release                          : release codec. (0x1363e5678)
+[LOG] SoundI::release                          : (null) (0x1117b7ce8)
+[LOG] SoundI::release                          : release subsounds. (0x1117b7ce8)
+[LOG] SoundI::release                          :     (null) (0x111795b28)
+[LOG] SoundI::release                          : release codec. (0x1117b7ce8)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x1117ca8a8 : node = 0x111782e30
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1117ca8a8
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSound                     :     setdata soundi = 0x1117d4458 : node = 0x11178de10
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x111782f38
+[LOG] SystemI::createSound                     :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     :     setdata soundi = 0x12222a2c8 : node = 0x130b2b430
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 172032 samples, lengthbytes 32576
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 172032, lengthbytes 32576, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1117ca8a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1117d4458
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x11178df18
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 121344 samples, lengthbytes 22144
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 121344, lengthbytes 22144, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1117d4458
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x12222a2c8
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x130b2b538
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 138240 samples, lengthbytes 26464
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 138240, lengthbytes 26464, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x12222a2c8
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SoundI::release                          : (null) (0x1117ca8a8)
+[LOG] SoundI::release                          : release subsounds. (0x1117ca8a8)
+[LOG] SoundI::release                          :     (null) (0x1117bdd88)
+[LOG] SoundI::release                          : release codec. (0x1117ca8a8)
+[LOG] SoundI::release                          : (null) (0x1117d4458)
+[LOG] SoundI::release                          : release subsounds. (0x1117d4458)
+[LOG] SoundI::release                          :     (null) (0x1117c9ee8)
+[LOG] SoundI::release                          : release codec. (0x1117d4458)
+[LOG] SoundI::release                          : (null) (0x12222a2c8)
+[LOG] SoundI::release                          : release subsounds. (0x12222a2c8)
+[LOG] SoundI::release                          :     (null) (0x130b2d5e8)
+[LOG] SoundI::release                          : release codec. (0x12222a2c8)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x1117d1718 : node = 0x1117bcc50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1117d1718
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 1.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 4538976
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 32704
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1117bcd58
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 1108985 samples, lengthbytes 222112
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 1108985, lengthbytes 222112, channels 2, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1117d1718
+[LOG] SoundI::release                          : (null) (0x1117d1718)
+[LOG] SoundI::release                          : release subsounds. (0x1117d1718)
+[LOG] SoundI::release                          :     (null) (0x130b2d5e8)
+[LOG] SoundI::release                          : release codec. (0x1117d1718)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Level 2.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x1117e4388 : node = 0x1117aced0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1117e4388
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Level 2.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 2128608
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 41920
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1117acfd8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 370590 samples, lengthbytes 74560
+[LOG] SystemI::createSample                    :     channels = 2
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 370590, lengthbytes 74560, channels 2, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1117e4388
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SoundI::release                          : (null) (0x1117e4388)
+[LOG] SoundI::release                          : release subsounds. (0x1117e4388)
+[LOG] SoundI::release                          :     (null) (0x1117bdd88)
+[LOG] SoundI::release                          : release codec. (0x1117e4388)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::readBank                        : fileversion = 62, compatVersion = 59 (oldest = 44, newest = 68)
+[LOG] Manager::finishLoadBank                  : Bank with guid {81d090b1-53e5-4d12-8972-2e20eead66e3} has already been loaded[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Master Bank.bank : mode 0a010202
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] OutputSoftware::createSample             : lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSound                     : setdata soundi = 0x112174dd8 : node = 0x112162680
+[LOG] SystemI::createSound                     : add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x112174dd8
+[LOG] SystemI::createSound                     : filename = Assets/LovebirdFMOD/Build/Desktop/Master Bank.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Master Bank.bank : mode 0a010202
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] OutputSoftware::createSample             :     lengthpcm 0, lengthbytes 0, channels 0, format 0, freq 0, mode 00000000
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 91136
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17216
+[LOG] SystemI::createSound                     :     setdata soundi = 0x130b6e9f8 : node = 0x130b71370
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x112162788
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x11174ab80.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 54272 samples, lengthbytes 9888
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 54272, lengthbytes 9888, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x112174dd8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x130b6e9f8
+[LOG] SystemI::createSoundInternal             :     filename = Assets/LovebirdFMOD/Build/Desktop/Master Bank.bank : mode 0a010202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 216
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 91136
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 17216
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x130b71478
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Format has 1 subsounds.
+[LOG] SystemI::createSoundInternal             :     Create as FMOD_CREATESAMPLE
+[LOG] SystemI::createSoundInternal             :     Multi-sample sound (1 subsounds), create a sample container.
+[LOG] SystemI::createSoundInternal             :     creating subsound 0/1
+[LOG] SystemI::createSample                    :     mode 0a010202 length 53760 samples, lengthbytes 10304
+[LOG] SystemI::createSample                    :     channels = 1
+[LOG] SystemI::createSample                    :     output = 0x130ff00b8
+[LOG] OutputSoftware::createSample             :     lengthpcm 53760, lengthbytes 10304, channels 1, format 2, freq 48000, mode 0a01020a
+[LOG] SystemI::createSoundInternal             :     done.  OpenState now = FMOD_OPENSTATE_READY.
+
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x130b6e9f8
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Loading delay exceeded, sound may play at incorrect time
+[LOG] SoundI::release                          : (null) (0x112174dd8)
+[LOG] SoundI::release                          : release subsounds. (0x112174dd8)
+[LOG] SoundI::release                          :     (null) (0x1117d01e8)
+[LOG] SoundI::release                          : release codec. (0x112174dd8)
+[LOG] SoundI::release                          : (null) (0x130b6e9f8)
+[LOG] SoundI::release                          : release subsounds. (0x130b6e9f8)
+[LOG] SoundI::release                          :     (null) (0x12e9ec998)
+[LOG] SoundI::release                          : release codec. (0x130b6e9f8)
+[LOG] Thread::callback                         : * FMOD Studio load thread finished
+[LOG] Thread::close                            : FMOD Studio load thread thread destroyed
+[LOG] LiveUpdate::release                      : 
+[LOG] SystemI::close                           : 
+[LOG] SystemI::close                           : Stop all sounds
+[LOG] Thread::callback                         : * FMOD stream thread finished
+[LOG] Thread::close                            : FMOD stream thread thread destroyed
+[LOG] SystemI::close                           : Stream thread destroyed
+[LOG] SystemI::close                           : Shut down output.
+[LOG] Thread::callback                         : * FMOD mixer thread finished
+[LOG] Thread::close                            : FMOD mixer thread thread destroyed
+[LOG] SystemI::close                           : Free master channel group.
+[LOG] SystemI::close                           : Remove 'master' sound group.
+[LOG] SystemI::close                           : Free software output.
+[LOG] SystemI::close                           : Free emulated output.
+[LOG] SystemI::close                           : Free channel pool.
+[LOG] SystemI::close                           : Remove miscllaneous DSP stuff.
+[LOG] Global::decRef                           : Shut down streamer and FMOD_NONBLOCKING and FileSystem thread.
+[LOG] Thread::callback                         : * FMOD nonblocking thread (0) finished
+[LOG] Thread::close                            : FMOD nonblocking thread (0) thread destroyed
+[LOG] Global::decRef                           : Shut down file system.
+[LOG] SystemI::close                           : done.
+
+[LOG] System::create                           : Header version = 1.07.06. Current version = 1.07.06.
