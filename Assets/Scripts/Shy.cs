@@ -21,10 +21,14 @@ public class Shy : AbstractDate {
 	void Update() {
 		happyness += Time.deltaTime * decipate;
 		happyness = Mathf.Min(target_happyness, happyness);
+		DateState beforestate = state;
 		if(happyness > target_happyness - 2) {
 			state = DateState.HAPPY;
 		} else {
 			state = DateState.UNHAPPY;
+		}
+		if(beforestate != state) {
+			updateState();
 		}
 	}
 }

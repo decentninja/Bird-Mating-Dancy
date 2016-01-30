@@ -8,11 +8,31 @@ public abstract class AbstractDate : MonoBehaviour {
 	public PlayerActions playeractions;
 	public float cosyProximity = 1f;
 	public float jumpAwayDistance = 1f;
+	public BirdMood birdmood;
 
 	public abstract void handlePlayerDid(PlayerAction pa);
 
+	void Start() {
+		updateState();
+	}
+
+	public void updateState() {
+		switch(state) {
+			case DateState.HAPPY:
+				birdmood.SetHappy();
+				break;
+			case DateState.NORMAL:
+				birdmood.SetNeutral();
+				break;
+			case DateState.UNHAPPY:
+				birdmood.SetAngry();
+				break;
+		}
+	}
+
 	public void playerDid(PlayerAction pa) {
 		handlePlayerDid(pa);
+		updateState();
 		if(Vector3.Distance(transform.position, playeractions.transform.position) < cosyProximity) {
 			switch(state) {
 				case DateState.HAPPY:

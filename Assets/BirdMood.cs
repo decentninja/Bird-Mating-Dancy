@@ -7,7 +7,7 @@ public class BirdMood : MonoBehaviour
     Animator[] bodyParts;
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         bodyParts = transform.GetComponentsInChildren<Animator>();
 
