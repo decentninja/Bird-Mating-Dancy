@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WingController
+  m_Controller: {fileID: 9100000, guid: 0b84bb8713c7c410ca4b7043da49333d, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 700c1b9e0484a4d79a8d58e9a5fd74e2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 893f85797f9fa4b19898c5d3f25e5eb7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 2b7f50d2576ff4d3faf572321b2f3c6c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 893f85797f9fa4b19898c5d3f25e5eb7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 43f78755e18904be890af4113b9012f3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a003f2e7e7d934a469e67d2e480658e8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: df47228bf56964b49a36d2fe1b5f9c49, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 893f85797f9fa4b19898c5d3f25e5eb7, type: 2}
