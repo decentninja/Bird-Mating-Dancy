@@ -41,6 +41,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: front
+  - name: BehindLevel
+    uniqueID: 3688612695
+    locked: 0
+  - name: Level
+    uniqueID: 458187603
+    locked: 0
+  - name: CharacterBack
+    uniqueID: 3856965907
+    locked: 0
+  - name: Character
     uniqueID: 3594117477
+    locked: 0
+  - name: CharacterFront
+    uniqueID: 330685973
     locked: 0
