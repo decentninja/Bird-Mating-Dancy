@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{4470e04f-845a-4656-8d60-ca5a7ef6711d}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.88235827664399091</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Creak_7 {3bd5c674-76b0-4719-a039-c7c2f04b4e65}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>

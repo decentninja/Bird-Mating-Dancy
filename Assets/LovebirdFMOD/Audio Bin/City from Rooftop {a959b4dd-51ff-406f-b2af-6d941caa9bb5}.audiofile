@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{a959b4dd-51ff-406f-b2af-6d941caa9bb5}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>92.014583333333334</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(EXTERNAL_AUDIO_DIR)/SCEN 1 ELETRIC WIRE/ATMO/City from Rooftop.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{9f4cede1-dab0-4903-8885-3616d8009cff}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.39183673469387753</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/FootstepsBranch2 {5361142a-8e00-41e2-80b5-bf3709f1b1f6}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>

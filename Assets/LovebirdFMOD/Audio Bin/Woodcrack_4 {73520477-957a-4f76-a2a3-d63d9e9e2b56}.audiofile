@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{73520477-957a-4f76-a2a3-d63d9e9e2b56}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.76625850340136059</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Woodcrack_4 {7c7ae8e4-becd-459a-b71d-f4441acbbf97}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>

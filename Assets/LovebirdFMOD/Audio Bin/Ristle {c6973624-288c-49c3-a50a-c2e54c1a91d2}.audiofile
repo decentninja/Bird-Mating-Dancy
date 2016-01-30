@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{c6973624-288c-49c3-a50a-c2e54c1a91d2}">
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.88235827664399091</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(AUDIO_BIN_DIR)/Ristle {b4d02833-0b3f-4058-9200-8b32717cc3bd}.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>

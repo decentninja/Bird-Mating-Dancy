@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{46af4dd6-995c-4efe-b9ec-8bc9060cea31}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.32800000000000001</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(EXTERNAL_AUDIO_DIR)/SCEN 1 ELETRIC WIRE/ZAPS/ZAP ALT SHORT.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>

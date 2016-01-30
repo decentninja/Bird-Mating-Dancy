@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eef8d824ea7b63742966aaa0e94ac383, type: 3}
   m_Name: FMODStudioSettings
   m_EditorClassIdentifier: 
-  HasSourceProject: 0
-  HasPlatforms: 0
-  SourceProjectPath: 
-  SourceBankPath: Assets/LovebirdFMOD/Build/Desktop
+  HasSourceProject: 1
+  HasPlatforms: 1
+  SourceProjectPath: Assets/LovebirdFMOD/LovebirdFMOD.fspro
+  SourceBankPath: Assets/LovebirdFMOD/Build
   AutomaticEventLoading: 1
   AutomaticSampleLoading: 0
   SpeakerModeSettings:
@@ -38,7 +38,11 @@ MonoBehaviour:
     Value: 1
   - Platform: 2
     Value: 0
-  BankDirectorySettings: []
+  BankDirectorySettings:
+  - Platform: 1
+    Value: Desktop
+  - Platform: 2
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
@@ -51,4 +55,6 @@ MonoBehaviour:
     Value: 32
   Plugins: []
   MasterBank: Master Bank
-  Banks: []
+  Banks:
+  - Level 2
+  - Level 1

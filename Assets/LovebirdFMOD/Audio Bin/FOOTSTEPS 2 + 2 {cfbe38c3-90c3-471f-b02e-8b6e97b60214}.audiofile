@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.05.00">
+    <object class="AudioFile" id="{cfbe38c3-90c3-471f-b02e-8b6e97b60214}">
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.63308333333333333</value>
+        </property>
+        <property name="audioFilePath">
+            <value>$(EXTERNAL_AUDIO_DIR)/BIRDS/FOOTSTEPS/FOOTSTEPS 2 + 2.wav</value>
+        </property>
+        <relationship name="container">
+            <destination>{81345680-4940-40cc-826a-357ddb4c4644}</destination>
+        </relationship>
+    </object>
+</objects>
