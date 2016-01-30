@@ -50,12 +50,10 @@ public class PlayerActions : MonoBehaviour
         if (level >= 1 && Input.GetKey(KeyCode.Space))
         {
             headbang = true;
-            Debug.Log("Head down");
         }
         if (headbang && !Input.GetKey(KeyCode.Space))
         {
             headbang = false;
-            Debug.Log("Head up");
             date.playerDid(PlayerAction.HEADBANG);
         }
         Vector3 pos = transform.position;

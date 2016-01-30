@@ -18,6 +18,7 @@ public class Parrot : AbstractDate {
 				headbangcount++;
 				if(headbangcount >= required_headbangcount) {
 					state = DateState.HAPPY;
+					cooldown = cooldown_setting;
 				}
 				break;
 		}
@@ -28,6 +29,7 @@ public class Parrot : AbstractDate {
 			cooldown -= Time.deltaTime;
 			if(cooldown < 0) {
 				state = DateState.NORMAL;
+				headbangcount = 0;
 			}
 		}
 	}

@@ -19,19 +19,22 @@ public abstract class AbstractDate : MonoBehaviour {
 	public void updateState() {
 		switch(state) {
 			case DateState.HAPPY:
-				birdmood.SetHappy();
+		                if(birdmood != null) 
+					birdmood.SetHappy();
 				if(playercontroller.happiness != null)
 					playercontroller.happiness.setValue(1f);
 				break;
 			case DateState.NORMAL:
-				birdmood.SetNeutral();
+		                if(birdmood != null) 
+					birdmood.SetNeutral();
 				if(playercontroller.happiness != null)
 					playercontroller.happiness.setValue(0.5f);
 				break;
 			case DateState.UNHAPPY:
 				if(playercontroller.happiness != null)
 					playercontroller.happiness.setValue(0f);
-				birdmood.SetAngry();
+		                if(birdmood != null) 
+					birdmood.SetAngry();
 				break;
 		}
 	}
