@@ -25,8 +25,9 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update() {
-		if(Input.GetKeyDown(KeyCode.Space)) {
+		if(Input.GetKeyDown(KeyCode.Escape)) {
 			Application.LoadLevel(Application.loadedLevel);
+			musicEV.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
 		}
 		if(active_level) {
 			transform.position = Vector3.Lerp(
