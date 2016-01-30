@@ -16,6 +16,9 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Update() {
+		if(Input.GetKeyDown(KeyCode.Space)) {
+			Application.LoadLevel(Application.loadedLevel);
+		}
 		transform.position = Vector3.Lerp(
 			transform.position,
 			active_level.transform.position,

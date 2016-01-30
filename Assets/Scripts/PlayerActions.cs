@@ -10,6 +10,7 @@ public class PlayerActions : MonoBehaviour
     public AbstractDate date;
     public int level = 0;
     bool headbang = false;
+    public float level_width = 3f;
 
     Animator[] bodyParts;
     Animator firstAnimator;
@@ -32,7 +33,6 @@ public class PlayerActions : MonoBehaviour
         {
             SetIdle();
         }
-
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {
@@ -57,6 +57,9 @@ public class PlayerActions : MonoBehaviour
             Debug.Log("Head up");
             date.playerDid(PlayerAction.HEADBANG);
         }
+        Vector3 pos = transform.position;
+        pos.x = Mathf.Clamp(pos.x, -level_width, level_width);
+        transform.position = pos;
     }
 
     public void SetWalk()
