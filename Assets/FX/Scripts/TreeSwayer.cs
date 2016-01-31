@@ -48,7 +48,7 @@ public class TreeSwayer : MonoBehaviour {
 		treepositions = new List<Vector3>();
 
 		for(int i = 0; i < trees.Count; i++) {
-			Debug.Log(i);
+			//Debug.Log(i);
 			treepositions.Add(trees[i].transform.position);
 		}	
 	}

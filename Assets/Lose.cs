@@ -14,14 +14,14 @@ public class Lose : MonoBehaviour
     {
         body = GetComponent<Rigidbody>();
 
-    
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (transform.position.z <= -12)
+        if (Vector3.Distance(transform.position, Camera.main.transform.position) < 2)
         {
             body.velocity = new Vector3(0, 0, 0);
             body.useGravity = true;
