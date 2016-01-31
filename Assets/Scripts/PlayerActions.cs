@@ -12,7 +12,7 @@ public class PlayerActions : MonoBehaviour
     bool headbang = false;
     public float level_width = 3f;
 
-  
+
     Animator[] bodyParts;
     Animator firstAnimator;
 
@@ -83,7 +83,8 @@ public class PlayerActions : MonoBehaviour
         }
     }
 
-    public void SetIdle() {
+    public void SetIdle()
+    {
 
         if (!firstAnimator.GetCurrentAnimatorStateInfo(0).IsName("Idle"))
         {
@@ -94,7 +95,9 @@ public class PlayerActions : MonoBehaviour
         }
     }
 
-    public void Lose() {
+    public void Lose()
+    {
+        print("we are here");
         GetComponent<Lose>().TriggerLose();
     }
 
