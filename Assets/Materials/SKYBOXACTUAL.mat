@@ -93,18 +93,6 @@ Material:
         second: 0.5
       data:
         first:
-          name: _SunRadiusB
-        second: 0.1
-      data:
-        first:
-          name: _SunRadiusA
-        second: 0
-      data:
-        first:
-          name: _SunIntensity
-        second: 2
-      data:
-        first:
           name: _Parallax
         second: 0.02
       data:
@@ -139,6 +127,18 @@ Material:
         first:
           name: _Metallic
         second: 0
+      data:
+        first:
+          name: _SunRadiusB
+        second: 0.022
+      data:
+        first:
+          name: _SunRadiusA
+        second: 0.071
+      data:
+        first:
+          name: _SunIntensity
+        second: 2.45
     m_Colors:
       data:
         first:
@@ -151,8 +151,8 @@ Material:
       data:
         first:
           name: _SkyColor
-        second: {r: 0.14117648, g: 0.35686275, b: 0.45882353, a: 1}
+        second: {r: 0.40178686, g: 0.063689455, b: 0.45588237, a: 1}
       data:
         first:
           name: _HorizonColor
-        second: {r: 0.7411765, g: 0.42745098, b: 0.40784314, a: 1}
+        second: {r: 0.8986846, g: 0.54119813, b: 0.9558824, a: 1}
