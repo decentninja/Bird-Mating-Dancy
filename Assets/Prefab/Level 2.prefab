@@ -3618,7 +3618,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 186090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.47, z: 0}
+  m_LocalPosition: {x: -4.54, y: -1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 479248}
@@ -4074,9 +4074,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveForce: 20
-  date: {fileID: 0}
+  date: {fileID: 11429744}
   level: 1
-  level_width: 8.5
+  level_width: 7
 --- !u!114 &11414970
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4328,10 +4328,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dc7893ee6d2a40ebab7ee57f9f49a2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  state: 0
+  state: 2
   playercontroller: {fileID: 0}
-  playeractions: {fileID: 0}
-  cosyProximity: 1
+  playeractions: {fileID: 11409072}
+  cosyProximity: 3
   jumpAwayDistance: 1
   birdmood: {fileID: 0}
   cooldown_setting: 10

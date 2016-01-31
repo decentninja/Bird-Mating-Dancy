@@ -20,7 +20,18 @@ public class Parrot : AbstractDate {
 	public override void handlePlayerDid(PlayerAction pa) {
 		switch(pa) {
 			case PlayerAction.HEADBANG:
+				Debug.Log("headbang");
+				if(headbanging) {
+					Debug.Log("headbang hit");
+					didbangontime = timefornextbang > 0;
+					headbangcount++;
+					if(didbangontime) {
+						Debug.Log("double headbang");
+						fail();
+					}
+				}
 				if(!headbanging) {
+					Debug.Log("Start new headbanging try");
 					headbanging = true;
 					foreach (var part in animators) {
 						part.SetBool("Angry", false);
@@ -30,14 +41,8 @@ public class Parrot : AbstractDate {
 					timefornextbang = beatseconds;
 					didbangontime = false;
 				}
-				if(headbanging) {
-					didbangontime = timefornextbang > 0;
-					headbangcount++;
-					if(didbangontime) {
-						fail();
-					}
-				}
 				if(headbangcount >= required_headbangcount) {
+					Debug.Log("headbanging good");
 					headbanging = false;
 					state = DateState.HAPPY;
 					cooldown = cooldown_setting;
@@ -51,6 +56,7 @@ public class Parrot : AbstractDate {
 	}
 	
 	void fail() {
+		Debug.Log("should be angry");
 		headbanging = false;
 		didbangontime = false;
 		foreach(var part in animators) {
