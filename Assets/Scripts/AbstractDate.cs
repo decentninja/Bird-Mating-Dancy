@@ -3,7 +3,7 @@ using System.Collections;
 
 public abstract class AbstractDate : MonoBehaviour
 {
-
+    private bool sceneFinished = false;
     public DateState state;
     public PlayerController playercontroller;
     public PlayerActions playeractions;
@@ -47,12 +47,14 @@ public abstract class AbstractDate : MonoBehaviour
     {
         handlePlayerDid(pa);
         updateState();
-        if (Vector3.Distance(transform.position, playeractions.transform.position) < cosyProximity)
+        if (Vector3.Distance(transform.position, playeractions.transform.position) < cosyProximity && !sceneFinished)
         {
             switch (state)
             {
                 case DateState.HAPPY:
+                    print("WE WIN!");
                     playeractions.Win();
+                    sceneFinished = true;
                     StartCoroutine(WaitAndProgress(3));
                     break;
                 case DateState.NORMAL:
@@ -60,8 +62,9 @@ public abstract class AbstractDate : MonoBehaviour
                     transform.Translate(jumpAwayDistance, 0, 0);
                     break;
                 case DateState.UNHAPPY:
+                    print("WE LOSE!");
                     playeractions.Lose();
-                    //transform.Translate(0, 1000, 0);
+                    transform.Translate(0, 1000, 0);
                     break;
             }
         }
@@ -71,5 +74,6 @@ public abstract class AbstractDate : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         playercontroller.Progress();
+
     }
 }
