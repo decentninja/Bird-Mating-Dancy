@@ -486,8 +486,8 @@ namespace FMODUnity
             }
             catch(EventNotFoundException)
             {
-                // Switch from exception with GUID to exception with path
-                throw new EventNotFoundException(path);
+                return null;
+ 
             }
         }
 

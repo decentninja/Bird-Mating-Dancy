@@ -100,6 +100,6 @@ public class PlayerActions : MonoBehaviour
 
     public void Win()
     {
-
+        GetComponent<Win>().TriggerWin();
     }
 }

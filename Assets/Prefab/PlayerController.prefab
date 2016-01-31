@@ -160,7 +160,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 38.5
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -238,7 +238,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   level: -1
-  music: event:/Environment/Level1(Electric wire)/Level1_Music
+  cooldown_timer: 1
+  music: event:/Environment/Music_Global
 --- !u!114 &11431386
 MonoBehaviour:
   m_ObjectHideFlags: 1
